@@ -1,0 +1,44 @@
+.our-clients {
+  color: #fff;
+
+  .title {
+    img {
+      right: 0;
+    }
+  }
+
+  .slide-img {
+    width: 220px;
+    height: 220px;
+    padding: 20px;
+  }
+
+  .slick-dots li button:before {
+    font-size: 15px;
+  }
+
+  .slick-dots li.slick-active button:before {
+    color: #2037e8;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .our-clients {
+    .slide-img {
+      // width: 100% !important;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .our-clients {
+    .slide-img {
+      width: 200px;
+      height: 200px;
+    }
+    .slick-dots li button:before {
+      font-size: 10px;
+    }
+  }
+}

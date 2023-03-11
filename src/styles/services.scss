@@ -1,0 +1,166 @@
+.services {
+  .title {
+    img {
+      right: 24%;
+    }
+  }
+
+  color: #fff;
+  h1 {
+    // text-align: center;
+    // margin-top: 10rem;
+    // margin-bottom: 10rem;
+    // font-size: 43px;
+  }
+
+  h1 span {
+    right: 25%;
+  }
+}
+
+.serv {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  margin: 30px 0;
+
+  .texts {
+    margin-left: 10rem;
+    li {
+      font-size: 24px;
+      margin: 5px 0;
+    }
+
+    li::before {
+      content: "\2022";
+      color: #2037e8;
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+  }
+
+  .left-text {
+    position: relative;
+
+    .circling-text {
+      position: absolute;
+      top: -40px;
+      animation: circleText 10s linear 2s infinite;
+      z-index: -1;
+    }
+
+    img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50px;
+    }
+  }
+
+  .left-text h2 {
+    font-size: 43px;
+    margin-left: 60px;
+  }
+
+  .circling-text {
+    font-size: 17px;
+    font-weight: 600;
+    color: #2037e8;
+  }
+}
+
+@media screen and (min-width: 600px) {
+}
+
+@media screen and (max-width: 600px) {
+  .services {
+    .serv {
+      .left-text {
+        h2 {
+          font-size: 20px !important;
+          margin-left: 20px;
+          width: 80% !important;
+        }
+      }
+      .texts {
+        width: 100% !important;
+        margin-left: 0 !important;
+        li {
+          font-size: 20px !important;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .services {
+    h2 {
+      font-size: 32px !important;
+      width: 260px;
+    }
+
+    .circling-text {
+      width: 110px !important;
+      height: 110px !important;
+    }
+
+    .serv {
+      grid-template-columns: repeat(1, 1fr);
+
+      .last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    .texts {
+      margin-left: 0;
+      margin-top: 5rem;
+      margin-bottom: 10rem;
+
+      li {
+        font-size: 24px;
+        margin: 5px 0;
+      }
+
+      li::before {
+        content: "\2022";
+        color: #2037e8;
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .services {
+    .texts {
+      li::before {
+        margin-left: 0;
+      }
+    }
+
+    .serv {
+      .left-text {
+        h2 {
+          font-size: 33px;
+        }
+
+        .circling-text {
+          top: -45px;
+        }
+      }
+
+      .texts {
+        margin-left: 5rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+}
