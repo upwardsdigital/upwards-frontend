@@ -31,6 +31,14 @@
   cursor: pointer;
   transition: all 0.3s ease-out;
   background-color: #25d366;
+  animation: fixed-social-media-animation 5s infinite;
+}
+
+@keyframes fixed-social-media-animation {
+  50% {
+    box-shadow: rgba(30, 255, 5, 0.56) 0px 6px 24px 12px;
+    transform: rotate(360deg);
+  }
 }
 
 .nav {
@@ -237,7 +245,6 @@ header {
     opacity: 1;
   }
 }
-
 
 @media screen and (max-width: 1200px) {
   nav {

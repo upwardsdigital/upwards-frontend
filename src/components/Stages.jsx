@@ -52,7 +52,7 @@ const Stages = () => {
           <div className="blog-container blog-4">
             <div className="nth-4 relative">
               <h1 data-aos="fade-left" data-aos-once="true">
-                <span>04</span> Frontend
+                <span>04</span> Разработка ПО
                 {/* <p>оплата 25%</p> */}
               </h1>
               <div className="dot"></div>
