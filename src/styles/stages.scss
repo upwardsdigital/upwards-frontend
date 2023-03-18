@@ -8,10 +8,6 @@
     }
   }
 
-  // .h1 {
-  //   margin: 8rem 0 5rem 0;
-  // }
-
   .line {
     position: relative;
     // width: 100%;
@@ -60,7 +56,6 @@
       }
 
       .first-child {
-       
         .dot {
           // left: 360px;
           left: 353px;
@@ -261,14 +256,6 @@
   }
 }
 
-@media screen and (max-width: 1200px) {
-  .stages {
-    .line-img {
-      // display: none !important;
-    }
-  }
-}
-
 @media screen and (max-width: 1440px) {
   .stages {
     .line-img {
@@ -282,16 +269,6 @@
       .dot {
         display: none;
       }
-    }
-  }
-}
-@media screen and (max-width: 1430px) {
-  .stages {
-    .line-img {
-      // z-index: -1;
-      // display: flex;
-      // justify-content: center;
-      // display: none !important;
     }
   }
 }

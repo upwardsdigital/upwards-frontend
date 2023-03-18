@@ -3,6 +3,7 @@ import React from "react";
 const HeaderBanner = () => {
   return (
     <div>
+      <img className="main-bg-img" src="/images/main-bg-img.png" />
       <div className="header-banner flex container hidden">
         <div className="header-banner-text flex">
           <h1 className="text">

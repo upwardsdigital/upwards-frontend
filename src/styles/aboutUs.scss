@@ -53,8 +53,8 @@
     // }
 
     img {
-     width: 400px;
-     height: 300px;
+      width: 400px;
+      height: 300px;
     }
 
     .texts {
@@ -74,7 +74,7 @@
   //     right: 35%;
   //     z-index: -1;
   //   }
- 
+
   //   .texts {
   //     flex-direction: column;
   //     margin-right: 9rem;
@@ -104,9 +104,6 @@
     .first-blog {
       img {
         width: 100% !important;
-      }
-
-      .down-img {
       }
 
       .down-img {
@@ -174,11 +171,6 @@
 
 @media screen and (max-width: 992px) {
   .about-us {
-    // .title {
-    //   img {
-    //     right: 190px;
-    //   }
-    // }
     .first-blog {
       flex-direction: column;
       margin-bottom: 8rem;
@@ -210,12 +202,6 @@
   .about-us {
     .first-blog {
       margin-bottom: 8rem;
-    }
-
-    .second-blog {
-      .texts {
-        // margin-right: 7rem;
-      }
     }
   }
 }

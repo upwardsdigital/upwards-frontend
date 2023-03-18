@@ -15,7 +15,6 @@
   .all-works {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    // gap: 3rem;
     row-gap: 5rem;
     column-gap: 3rem;
 
@@ -151,22 +150,8 @@
   .works {
     .all-works {
       .work {
-        // width: 248px !important;
         margin: 0 auto;
         text-align: center;
-
-        .desktop {
-          img {
-            // width: 248px;
-          }
-
-          .scroll {
-            // .box {
-            //   width: 145px !important;
-            //   height: 84px !important;
-            // }
-          }
-        }
       }
     }
   }
@@ -222,8 +207,6 @@
 @media screen and (max-width: 1200px) {
   .works {
     .all-works {
-      // grid-template-columns: repeat(1, 1fr);
-
       .work {
         display: flex;
         flex-direction: column;
@@ -237,7 +220,6 @@
 @media screen and (max-width: 1240px) {
   .works {
     .all-works {
-      // column-gap: 2rem;
       grid-template-columns: repeat(1, 1fr);
     }
   }
@@ -247,8 +229,6 @@
   .works {
     padding: 0 !important;
     .all-works {
-      // grid-template-columns: repeat(1, 1fr);
-
       .work {
         display: flex;
         flex-direction: column;

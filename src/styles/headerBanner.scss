@@ -40,6 +40,15 @@
   }
 }
 
+.main-bg-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 80%;
+  height: 100vh;
+  z-index: -1;
+}
+
 .ticker {
   width: 100%;
   position: relative;
@@ -214,5 +223,4 @@
   }
 }
 
-@media screen and (max-width: 1200px) {
-}
+
