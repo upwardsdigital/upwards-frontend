@@ -76,7 +76,9 @@ const Header = () => {
             <NavLink to="/connectWith">
               <li className="nav">Контакты</li>
             </NavLink>
-            <li className="nav num">+996 999 099 001</li>
+            <a href="tel:+996 999 099 001">
+              <li className="nav num">+996 999 099 001</li>
+            </a>
           </ul>
           <ul className="social-medias flex">
             <a href="https://www.instagram.com/upwards.digital/">

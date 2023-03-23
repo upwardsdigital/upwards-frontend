@@ -42,7 +42,7 @@ const AboutUsPage = () => {
   //       scrub: true,
   //     },
   //   });
-  
+
   // }, []);
 
   return (

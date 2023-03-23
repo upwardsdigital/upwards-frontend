@@ -2,9 +2,9 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 
 import PuffLoader from "react-spinners/PuffLoader";
-// import Home from "./pages/HomePage";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import NotFoundPage from "./pages/NotFoundPage";
 
 import ScrollToTop from "./components/ScrollToTop";
 import LazyImg from "./lazy-img/LazyImg";
@@ -17,7 +17,7 @@ const LazyConnectWith = React.lazy(() => import("./components/ConnectWith"));
 const LazyBlogPage = React.lazy(() => import("./pages/BlogPage"));
 const LazyMoreBlog = React.lazy(() => import("./moreBlog/MoreBlog"));
 
-function App() {
+function App(props) {
   return (
     <React.Suspense
       fallback={
@@ -143,12 +143,10 @@ function App() {
             </React.Suspense>
           }
         />
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
-
       <Footer />
     </React.Suspense>
-    //   )}
-    // </div>
   );
 }
 

@@ -36,7 +36,7 @@
 
 @keyframes fixed-social-media-animation {
   50% {
-    box-shadow: rgba(30, 255, 5, 0.56) 0px 6px 24px 12px;
+    box-shadow: rgba(30, 255, 5, 0.56) 0px 2px 16px 4px;
     transform: rotate(360deg);
   }
 }
@@ -116,7 +116,7 @@ header {
   .navbar {
     .num {
       font-weight: 500;
-      cursor: text;
+      cursor: pointer;
 
       &::after {
         background: none !important;
