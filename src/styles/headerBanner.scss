@@ -144,10 +144,10 @@
   }
 }
 
-@media screen and (min-width: 600px) {
-}
-
 @media screen and (max-width: 600px) {
+  .main-bg-img {
+    height: 620px;
+  }
   .header-banner {
     padding-top: 10rem !important;
     .header-banner-text {
