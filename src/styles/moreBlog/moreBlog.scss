@@ -7,16 +7,15 @@
     img {
       float: left;
       margin-right: 1.3rem;
+      margin-bottom: 0.6rem;
       width: 50%;
       border-radius: 8px;
       height: 400px;
-  
     }
 
     h1 {
       margin-bottom: 1rem;
-     
-      }
+    }
 
     p {
       line-height: 30px;
@@ -42,6 +41,11 @@
     grid-template-columns: repeat(2, 1fr);
 
     .article {
+      transition: all .3s ease;
+      
+      &:hover {
+        background: #29292B !important;
+      }
       a {
         transition: all 0.5s ease-out;
 
@@ -49,6 +53,7 @@
           margin: 0 8px;
           transition: all 0.3s ease;
         }
+
         &:hover {
           // transform: translateY(10px);
           // transform: rotateY(10px);
@@ -68,7 +73,8 @@
         align-items: center;
         width: 100%;
       }
-      background-color: #29292b;
+
+      background-color: #1b1b1b;
       padding: 15px;
 
       &:last-child {
@@ -81,6 +87,7 @@
         width: 100%;
         color: #2037e8;
       }
+
     }
 
     .left-side {
@@ -166,4 +173,3 @@
     }
   }
 }
-

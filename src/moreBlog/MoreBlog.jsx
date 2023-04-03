@@ -4,7 +4,7 @@ const moreBlog = () => {
   return (
     <div className="container more-blog">
       <p className="p-1">
-        Главная ▶▶ Блог ▶▶ Высокая конверсия сайта: проверенные способы
+        Главная {">>"} Блог {">>"} Высокая конверсия сайта: проверенные способы
       </p>
       <div className="more-info">
         <img src="./images/Bill-in-blog.jpeg" />

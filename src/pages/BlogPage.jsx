@@ -18,7 +18,7 @@ const BlogPage = () => {
       <div className="flex">
         <div className="blogs">
           <div className="blog flex-end">
-            <h4>Самые популярные места в КР и самые красивые</h4>
+            <h4>Рекомендация Билл Гейтса</h4>
             <div>
               <Link to="/moreBlog">
                 <button type="button" className="btn">
